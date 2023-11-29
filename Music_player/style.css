@@ -1,0 +1,57 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container
+{
+    margin:10% 28%;
+    border:2px solid black;
+    width:50vw;
+    height:110vh;
+    position: relative;
+    display: flex;
+    padding: 1%;
+    
+}
+
+i{
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+.play-section
+{   
+    position: absolute;
+    bottom: 0;
+    margin-left:35%;
+    padding: 2%;
+}
+
+.song-item{
+    border-radius: 20px;
+    width: 200px;
+    height: 100px;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    list-style: none;
+    margin-top: 10px;
+    align-items: center;
+}
+
+
+.song-item:hover{
+   text-decoration: underline;
+}
+
+img{
+    width:100px;
+    height:100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+   
+}
